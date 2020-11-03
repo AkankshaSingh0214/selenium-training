@@ -41,7 +41,7 @@ public class BrowserCode {
       w=new EdgeDriver();
       w.get("https://www.google.com/");
       String title=w.getTitle();
-      Assert.assertEquals(title,"Google1");
+      Assert.assertEquals(title,"Google");
 	  
   }
 
