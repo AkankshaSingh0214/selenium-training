@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+ 
+ <listeners>
+		<listener class-name="com.selenium.pageobject.ExtentReport" />
+	</listeners>
+ 
+  <test name="TestSoftAssert">
+    <classes>
+      <class name="com.selenium.testcases.selenium_test.LoginTestngSoftAssert"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="TestHardAssert">
+    <classes>
+      <class name="com.selenium.testcases.selenium_test.LoginTestngHardAssert"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->

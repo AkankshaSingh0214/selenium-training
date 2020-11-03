@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.selenium.pageobject.ExtentReport"/>
+  </listeners>
+  <test thread-count="5" name="TestSoftAssert(failed)">
+    <classes>
+      <class name="com.selenium.testcases.selenium_test.LoginTestngSoftAssert">
+        <methods>
+          <include name="loginAdmin"/>
+          <include name="preCondition"/>
+          <include name="logoutAdmin"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- com.selenium.testcases.selenium_test.LoginTestngSoftAssert -->
+    </classes>
+  </test> <!-- TestSoftAssert(failed) -->
+</suite> <!-- Failed suite [Suite] -->

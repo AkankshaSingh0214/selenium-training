@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite parallel="tests" name="Smoke Suite">
+
+	<listeners>
+		<listener class-name="com.selenium.pageobject.ExtentReport" />
+	</listeners>
+
+
+
+	<test name=" Test1 ">
+		<classes>
+			<class name="com.selenium.testcases.selenium_test.LoginTestng" />
+		</classes>
+	</test> <!-- Test -->
+
+
+	<test name="Test2">
+		<classes>
+			<class name="com.selenium.testcases.selenium_test.BrowserCode" />
+		</classes>
+	</test> <!-- Test -->
+
+
+	<test name="Test3">
+		<classes>
+			<class name="com.selenium.webobject.HandleFrame" />
+		</classes>
+	</test> <!-- Test -->
+
+
+
+</suite> <!-- Suite -->
