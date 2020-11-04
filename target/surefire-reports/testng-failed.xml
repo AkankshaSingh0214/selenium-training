@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Smoke Suite]" verbose="0">
+  <listeners>
+    <listener class-name="com.selenium.pageobject.ExtentReport"/>
+  </listeners>
+  <test thread-count="5" name="Test2(failed)" verbose="0">
+    <classes>
+      <class name="com.selenium.testcases.selenium_test.BrowserCode">
+        <methods>
+          <include name="Edge"/>
+          <include name="firefox"/>
+        </methods>
+      </class> <!-- com.selenium.testcases.selenium_test.BrowserCode -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Smoke Suite] -->

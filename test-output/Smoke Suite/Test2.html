@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>1/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Oct 29 09:52:19 EDT 2020</td>
+<td>Started on:</td><td>Wed Nov 04 08:50:54 EST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>31 seconds (31992 ms)</td>
+<tr><td>Total time:</td><td>24 seconds (24236 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,21 +76,31 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.selenium.testcases.selenium_test.BrowserCode.Edge()'><b>Edge</b><br>Test class: com.selenium.testcases.selenium_test.BrowserCode<br>Test method: verify Edge</td>
-<td><div><pre>java.lang.AssertionError: expected [Google1] but found [Google]
-	at com.selenium.testcases.selenium_test.BrowserCode.Edge(BrowserCode.java:44)
+<td><div><pre>java.lang.IllegalStateException: The driver executable does not exist: C:\Users\akanksha singh\Desktop\Selenium Practice\selenium-test\Driver\msedgedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.edge.EdgeDriverService.access$000(EdgeDriverService.java:37)
+	at org.openqa.selenium.edge.EdgeDriverService$Builder.findDefaultExecutable(EdgeDriverService.java:90)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.edge.EdgeDriverService.createDefaultService(EdgeDriverService.java:70)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:96)
+	at com.selenium.testcases.selenium_test.BrowserCode.Edge(BrowserCode.java:41)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:832)
-... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace95267261", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace95267261'><pre>java.lang.AssertionError: expected [Google1] but found [Google]
-	at org.testng.Assert.fail(Assert.java:96)
-	at org.testng.Assert.failNotEquals(Assert.java:776)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
-	at org.testng.Assert.assertEquals(Assert.java:118)
-	at org.testng.Assert.assertEquals(Assert.java:453)
-	at org.testng.Assert.assertEquals(Assert.java:463)
-	at com.selenium.testcases.selenium_test.BrowserCode.Edge(BrowserCode.java:44)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1308397093", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1308397093'><pre>java.lang.IllegalStateException: The driver executable does not exist: C:\Users\akanksha singh\Desktop\Selenium Practice\selenium-test\Driver\msedgedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.edge.EdgeDriverService.access$000(EdgeDriverService.java:37)
+	at org.openqa.selenium.edge.EdgeDriverService$Builder.findDefaultExecutable(EdgeDriverService.java:90)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.edge.EdgeDriverService.createDefaultService(EdgeDriverService.java:70)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:96)
+	at com.selenium.testcases.selenium_test.BrowserCode.Edge(BrowserCode.java:41)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -112,8 +122,8 @@ function toggleAllBoxes() {
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:832)
 </pre></div></td>
-<td>18</td>
-<td>com.selenium.testcases.selenium_test.BrowserCode@6b26e945</td></tr>
+<td>0</td>
+<td>com.selenium.testcases.selenium_test.BrowserCode@71b1176b</td></tr>
 <tr>
 <td title='com.selenium.testcases.selenium_test.BrowserCode.firefox()'><b>firefox</b><br>Test class: com.selenium.testcases.selenium_test.BrowserCode<br>Test method: verify firefox</td>
 <td><div><pre>org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
@@ -131,8 +141,8 @@ Driver info: driver.version: FirefoxDriver
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:832)
-... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1004081841", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1004081841'><pre>org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace14470605", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace14470605'><pre>org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;LAPTOP-ANSDQM6E&apos;, ip: &apos;192.168.0.17&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.2&apos;
 Driver info: driver.version: FirefoxDriver
@@ -165,7 +175,7 @@ Driver info: driver.version: FirefoxDriver
 	at java.base/java.lang.Thread.run(Thread.java:832)
 </pre></div></td>
 <td>0</td>
-<td>com.selenium.testcases.selenium_test.BrowserCode@6b26e945</td></tr>
+<td>com.selenium.testcases.selenium_test.BrowserCode@71b1176b</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -177,8 +187,8 @@ Driver info: driver.version: FirefoxDriver
 <tr>
 <td title='com.selenium.testcases.selenium_test.BrowserCode.chrome()'><b>chrome</b><br>Test class: com.selenium.testcases.selenium_test.BrowserCode<br>Test method: verify Chrome</td>
 <td></td>
-<td>13</td>
-<td>com.selenium.testcases.selenium_test.BrowserCode@6b26e945</td></tr>
+<td>23</td>
+<td>com.selenium.testcases.selenium_test.BrowserCode@71b1176b</td></tr>
 </table><p>
 </body>
 </html>

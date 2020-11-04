@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 56.118 s <<< FAILURE! - in TestSuite
+com.selenium.testcases.selenium_test.BrowserCode.firefox  Time elapsed: 0.039 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-ANSDQM6E', ip: '192.168.0.17', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: FirefoxDriver
+	at com.selenium.testcases.selenium_test.BrowserCode.firefox(BrowserCode.java:30)
+
+com.selenium.testcases.selenium_test.BrowserCode.Edge  Time elapsed: 0.016 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver executable does not exist: C:\Users\akanksha singh\Desktop\Selenium Practice\selenium-test\Driver\msedgedriver.exe
+	at com.selenium.testcases.selenium_test.BrowserCode.Edge(BrowserCode.java:41)
+

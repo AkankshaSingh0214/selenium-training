@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<suite parallel="tests" name="Smoke Suite">
+<suite parallel="false" name="Smoke Suite">
 
 	<listeners>
 		<listener class-name="com.selenium.pageobject.ExtentReport" />
